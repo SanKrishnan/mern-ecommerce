@@ -33,7 +33,7 @@ app.use(helmet());
 app.use(mongoSanitize());
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://your-render-app.onrender.com'] 
+    ? ['https://mern-ecommerce-pgsp.onrender.com'] 
     : 'http://localhost:3000',
   credentials: true
 }));
